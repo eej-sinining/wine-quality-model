@@ -3,8 +3,8 @@ import joblib
 import pandas as pd
 
 # Load the trained model and imputer
-model = joblib.load("wine_quality_model.pkl")
-imputer = joblib.load("imputer.pkl")
+model = joblib.load("./wine_quality_model.pkl")
+imputer = joblib.load("./imputer.pkl")
 
 # Exact feature names used during training (case-sensitive)
 expected_features = [
